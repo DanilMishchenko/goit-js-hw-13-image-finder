@@ -16,12 +16,16 @@
     />
   </head>
   <body>
+    <form class="search-form" id="search-form">
+      <input type="text" name="query" autocomplete="off" placeholder="Search images..." />
+      <button type="submit" class="btn-search">Search</button>
+    </form>
     <ul class="gallery">
       <!-- Список <li> с карточками изображений -->
     </ul>
-    <form class="search-form" id="search-form">
-      <input type="text" name="query" autocomplete="off" placeholder="Search images..." />
-    </form>
+    <div class="load-container">
+      <button type="button", class="js-load-more">Load more</button>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
